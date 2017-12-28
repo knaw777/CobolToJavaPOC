@@ -42,11 +42,11 @@ public class CobolToJavaConverter {
 	static Date date = new Date();
 	static DateFormat format = new SimpleDateFormat("HHmm");
 
-	private static String inputFile="E:\\NTF4RPV_RPVF3053_G0325.txt";
+	private static String inputFile="D:\\files\\NTF4RPV_RPVF3053_G0325.txt";
 	
-	private static String outputRPVFPO0A="E:\\RPVFPO0A.txt";
+	private static String outputRPVFPO0A="D:\\files\\RPVFPO0A.txt";
 	
-	private static String outputRPVFPO0Z="E:\\RPVFPO0Z.txt";
+	private static String outputRPVFPO0Z="D:\\files\\RPVFPO0Z.txt";
 
 	public static void convertCobolToJava() throws IOException {
 		
